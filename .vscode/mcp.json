@@ -1,0 +1,50 @@
+{
+    "servers": {
+        "Calculator-STDIO": {
+            "command": "uv",
+            "args": [
+            "run",
+            "--with",
+            "fastmcp",
+            "fastmcp",
+            "run",
+            "C:/WS/ME/projects/custom-mcp/calculator_stdio.py"
+            ]
+        },
+        "Calculator-HTTP": {
+            "command": "uv",
+            "args": [
+            "run",
+            "--with",
+            "fastmcp",
+            "fastmcp",
+            "run",
+            "C:/WS/ME/projects/custom-mcp/calculator_http.py"
+            ]
+        },
+        "YoutubeRssFeed-STDIO": {
+            "command": "uv",
+            "args": [
+            "run",
+            "--with",
+            "fastmcp",
+            "fastmcp",
+            "run",
+            "C:/WS/ME/projects/custom-mcp/rssfeed_stdio.py"
+            ]
+        },
+        "YoutubeRssFeed-HTTP": {
+            "command": "uv",
+            "args": [
+            "run",
+            "--with",
+            "fastmcp",
+            "fastmcp",
+            "run",
+            "C:/WS/ME/projects/custom-mcp/rssfeed_http.py"
+            ]
+        }
+        
+
+    }
+}
