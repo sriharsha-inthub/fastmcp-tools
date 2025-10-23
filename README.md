@@ -45,3 +45,7 @@ npx @modelcontextprotocol/inspector python fastapi_mcp_calculator.py
 echo "Explore mcp inspector; connect & test resources - tools."
 ```
 
+## Generfate mcp-json config.
+```
+fastmcp install mcp-json --server-spec calculator_http.py --copy
+```

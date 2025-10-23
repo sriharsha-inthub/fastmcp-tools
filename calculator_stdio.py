@@ -120,7 +120,7 @@ def divide(dividend: float, divisor: float, ctx: Context) -> float:
 @mcp.tool(
     name="reminder",
     tags=["math", "arithmetic", "reminder"],
-    enabled=False
+    enabled=True
 )
 def reminder(dividend: float, divisor: float, ctx: Context) -> float:
     """
