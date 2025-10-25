@@ -24,7 +24,7 @@ from http_client import get_html_content
 
 # Initialize the FastMCP server
 mcp = FastMCP(
-    name="MCPMulesoftAssistantServer",
+    name="MulesoftAssistantServer",
     instructions="""
         This server provides Mulesoft Runtime, Java and Connector Version data. 
         It scrapes official MuleSoft documentation website 

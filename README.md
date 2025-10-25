@@ -1,10 +1,10 @@
 # 1. Virtual env setup & install pre-requisites
 
 ```
-echo "Create a virtual environment
+echo "Create a virtual environment"
 python -m venv .venv
 
-echo "Active teh virtual environemnt
+echo "Activate the virtual environment"
 .venv/Scripts/activate.bat
 
 echo "Install all pre-requisites/packages"
@@ -22,10 +22,10 @@ echo "Required package is fastmcp"
 echo "pip install fastmcp"
 
 echo "Run mcp server"
-python fastmcp_calculator.py
+python quickstart/calculator_stdio.py
 
-echo "In a new terminal; inspect mcp
-npx @modelcontextprotocol/inspector python fastmcp_calculator.py
+echo "In a new terminal; inspect mcp"
+npx @modelcontextprotocol/inspector python quickstart/calculator_stdio.py
 
 echo "Explore mcp inspector; connect & test resources - tools."
 ```
@@ -34,33 +34,33 @@ echo "Explore mcp inspector; connect & test resources - tools."
 ## 1.2 Explore & Test -FastAPI-MCP
 
 ```
-echo "Required packages are fastapi, fastapi-mcp & unicorm (server)"
+echo "Required packages are fastapi, fastapi-mcp & uvicorn (server)"
 echo "pip install fastapi fastapi-mcp uvicorn[standard]"
 echo "Run mcp server"
-python fastapi_mcp_calculator.py
+python quickstart/calculator_api_http.py
 
-echo "In a new terminal; inspect mcp
-npx @modelcontextprotocol/inspector python fastapi_mcp_calculator.py
+echo "In a new terminal; inspect mcp"
+npx @modelcontextprotocol/inspector python quickstart/calculator_api_http.py
 
 echo "Explore mcp inspector; connect & test resources - tools."
 ```
 
-## Generfate mcp-json config.
+## Generate mcp-json config.
 ```
-fastmcp install mcp-json --server-spec calculator_http.py --copy
+fastmcp install mcp-json --server-spec quickstart/calculator_http.py --copy
 ```
 
 ## 1.3 MuleSoft Runtime Versions Scraper
 
 ```
 echo "Run MuleSoft scraper as HTTP server"
-python mulesoft_scraper.py
+python quickstart/rssfeed_http.py
 
 echo "Run MuleSoft scraper as Stdio server"
-python mulesoft_scraper_stdio.py
+python quickstart/rssfeed_stdio.py
 
 echo "In a new terminal; inspect mcp"
-npx @modelcontextprotocol/inspector python mulesoft_scraper.py
+npx @modelcontextprotocol/inspector python quickstart/rssfeed_http.py
 
 echo "Explore mcp inspector; connect & test resources - tools."
 ```
