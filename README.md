@@ -49,3 +49,18 @@ echo "Explore mcp inspector; connect & test resources - tools."
 ```
 fastmcp install mcp-json --server-spec calculator_http.py --copy
 ```
+
+## 1.3 MuleSoft Runtime Versions Scraper
+
+```
+echo "Run MuleSoft scraper as HTTP server"
+python mulesoft_scraper.py
+
+echo "Run MuleSoft scraper as Stdio server"
+python mulesoft_scraper_stdio.py
+
+echo "In a new terminal; inspect mcp"
+npx @modelcontextprotocol/inspector python mulesoft_scraper.py
+
+echo "Explore mcp inspector; connect & test resources - tools."
+```
