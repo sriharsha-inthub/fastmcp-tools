@@ -1,0 +1,11 @@
+{
+    // Set the default integrated terminal profile on Windows to Command Prompt (cmd.exe)
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    // Optionally, define the Command Prompt profile if not already defined
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": {
+            "path": ["cmd.exe"],
+            "args": []
+        }
+    }
+}

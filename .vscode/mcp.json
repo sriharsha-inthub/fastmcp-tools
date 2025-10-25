@@ -1,5 +1,16 @@
 {
     "servers": {
+        "MCPMulesoftAssistantServer": {
+            "command": "uv",
+            "args": [
+            "run",
+            "--with",
+            "fastmcp",
+            "fastmcp",
+            "run",
+            "C:/WS/INTHUB/GITHUB/fastmcp-tools/mcp_mulesoft_assistant/mcp_mulesoft_server.py"
+            ]
+        },
         "Calculator-STDIO": {
             "command": "uv",
             "args": [
