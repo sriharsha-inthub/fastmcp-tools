@@ -1,6 +1,6 @@
 {
     "servers": {
-        "MCPMulesoftAssistantServer": {
+        "MulesoftAssistantServer": {
             "command": "uv",
             "args": [
             "run",
@@ -8,54 +8,8 @@
             "fastmcp",
             "fastmcp",
             "run",
-            "C:/WS/INTHUB/GITHUB/fastmcp-tools/mcp_mulesoft_assistant/mcp_mulesoft_server.py"
+            "path-to-this-file/mulesoft_assistant/mulesoft_server.py"
             ]
         },
-        "Calculator-STDIO": {
-            "command": "uv",
-            "args": [
-            "run",
-            "--with",
-            "fastmcp",
-            "fastmcp",
-            "run",
-            "C:/WS/ME/projects/custom-mcp/calculator_stdio.py"
-            ]
-        },
-        "Calculator-HTTP": {
-            "command": "uv",
-            "args": [
-            "run",
-            "--with",
-            "fastmcp",
-            "fastmcp",
-            "run",
-            "C:/WS/ME/projects/custom-mcp/calculator_http.py"
-            ]
-        },
-        "YoutubeRssFeed-STDIO": {
-            "command": "uv",
-            "args": [
-            "run",
-            "--with",
-            "fastmcp",
-            "fastmcp",
-            "run",
-            "C:/WS/ME/projects/custom-mcp/rssfeed_stdio.py"
-            ]
-        },
-        "YoutubeRssFeed-HTTP": {
-            "command": "uv",
-            "args": [
-            "run",
-            "--with",
-            "fastmcp",
-            "fastmcp",
-            "run",
-            "C:/WS/ME/projects/custom-mcp/rssfeed_http.py"
-            ]
-        }
-        
-
     }
 }
